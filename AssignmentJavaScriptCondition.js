@@ -18,7 +18,7 @@ document.write("<br>")
 var name = "Afzal";
 var age = 44
 var DOB = 11121978
-var student =
+var student =''
 apple = 300
 
 lngth1 = name.length
@@ -30,55 +30,29 @@ document.write("<br>")
 document.write(DOB.toString().length)
 document.write("<br>")
 
-if (student.toString().length === 0) {
-
-    console.log("This is an empty varibale")
+if (age.toString().length == 0) {
+    console.log("This is an empty variable")
 }
     
-    else {
-
-    console.log("This is NOT an empty varibale")    
-
-    }
-
-    document.write("<br>")
-
-if (apple.toString().length === 0) {
-
-    console.log("This is an empty varibale")
-    }
-    
-    else {
-    
-    console.log("This is NOT an empty varibale")    
-    
-        }
-
-
-        // 3 - study on OR operator in js (how does it work)
-
-
-// 4 - take two variables name and email. If any of them is empty, the output will be failed, otherwiseoutput will  be success.
-
-name = "Unknown Name"
-email = ""
-
-if (name.length === 0) {
-
-console.log("failed")
-}
-
 else {
-
-console.log("success")
+    console.log("This is NOT an empty variable")    
 }
 
-if (email.length === 0) {
+//     document.write("<br>")
 
-    console.log("failed")
-    }
+// if (apple.toString().length == 0) {
+
+//     console.log("This is an empty varible")
+//     }
     
-    else {
+//     else {
     
-    console.log("success")
-    }
+//     console.log("This is NOT an empty varible")    
+    
+//         }
+
+
+// 3 - study on OR operator in js (how does it work)
+
+
+
